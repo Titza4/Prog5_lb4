@@ -1,2 +1,2 @@
 # Лабораторная работа №4. Создание генератора с элементами ряда Фибоначчи
-![image](https://github.com/user-attachments/assets/a0c293c5-0c0f-4e15-92b5-8c2aba108f62)
+![image](https://github.com/user-attachments/assets/07c85367-a859-4844-8973-efebf17bcc55)
