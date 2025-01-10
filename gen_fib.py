@@ -53,5 +53,21 @@ def main():
     for el in fib_iter(range(10)):
         print(el, end=' ')
 
+def my_genn():
+    while True:
+        n = (yield) 
+        if n < 0:
+            raise ValueError("n должно быть неотрицательным")
+        
+        if n == 0:
+            yield [0] 
+        else:
+            lst = [0, 1]
+            while len(lst) < n:
+                lst.append(lst[-1] + lst[-2])
+            yield lst[:n]  
+
+
+
 if __name__ == '__main__':
     main()
